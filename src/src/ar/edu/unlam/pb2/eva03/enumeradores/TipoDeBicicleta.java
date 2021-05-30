@@ -1,8 +1,10 @@
 package src.ar.edu.unlam.pb2.eva03.enumeradores;
 
 public enum TipoDeBicicleta {
-	RUTA,
+	RUTA ,
 	MOUNTAIN,
 	BMX,
-	TRIA
+	TRIA;
+
+
 }

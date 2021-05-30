@@ -5,6 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 import src.ar.edu.unlam.pb2.eva03.Ciclista;
+import src.ar.edu.unlam.pb2.eva03.Club;
 import src.ar.edu.unlam.pb2.eva03.Corredor;
 import src.ar.edu.unlam.pb2.eva03.Nadador;
 import src.ar.edu.unlam.pb2.eva03.Triatleta;
@@ -48,7 +49,7 @@ public class PruebaEva03 {
 		assertEquals(TipoDeBicicleta.TRIA, nuevo.getTipoDeBicicleta());
 		assertEquals((Integer)4, nuevo.getNumeroDeSocio());
 	}
-	/*
+	
 	@Test
 	public void  queSePuedanIncorporarDistintosDeportistas() {
 		// El número de socio no se puede repetir
@@ -68,7 +69,7 @@ public class PruebaEva03 {
 			
 		assertEquals((Integer) 10, actual.getCantidadSocios());		
 	}
-	
+	/*
 	@Test //(expected = NoEstaPreparado.class)
 	public void  queUnCorredorNoSePuedaInscribirEnUnaCarreraDeNatacion () throws NoEstaPreparado{	
 		// En las carreras de natación sólo pueden inscribirse los que sean INadador
